@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    tools:context="Fragment.buttom_fragment">
+
+    <ImageButton
+        android:id="@+id/Home"
+        android:src="@drawable/main_page_button"
+        style="@style/BottomButton" />
+
+    <ImageButton
+        android:id="@+id/Post"
+        android:src="@drawable/plus_button"
+        style="@style/BottomButton"/>
+
+    <ImageButton
+        android:id="@+id/Chat"
+        android:src="@drawable/chatbutton"
+        style="@style/BottomButton"/>
+
+    <ImageButton
+        android:id="@+id/Profile"
+        android:src="@drawable/profile_button"
+        style="@style/BottomButton"/>
+
+</LinearLayout>

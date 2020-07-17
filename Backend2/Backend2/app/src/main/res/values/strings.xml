@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">WooHoo</string>
+
+    <string-array name="ItemHistory">
+        <item>Post Items</item>
+        <item>Sold Items</item>
+        <item>Bought Items</item>
+        <item>Favorite Items</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="ItemCategory">
+        <item>Clothes</item>
+        <item>Books</item>
+        <item>Electronics</item>
+        <item>Furnitures</item>
+    </string-array>
+
+
+    <string name="use_live_key_in_production_environment">Please use your live merchant key in production environment</string>
+    <string name="could_not_receive_data">Could not receive data</string>
+    <string name="test">Test</string>
+    <string name="production">Production</string>
+
+    <string name="name_on_card">Name On Card</string>
+    <string name="card_number_format">xxxx-xxxx-xxxx-xxxx</string>
+    <string name="cvv">CVV</string>
+    <string name="month_format">MM</string>
+    <string name="year_format">YYYY</string>
+    <string name="expires">Expires:</string>
+    <string name="pay_now">PAY NOW</string>
+    <string name="enter_card_details">Enter Card Details</string>
+    <string name="save_card">Save card for faster checkouts.</string>
+    <string name="enable_one_click_checkout">Enable one click checkout.</string>
+    <string name="ok">OK</string>
+    <string name="Cancel">Cancel</string>
+    <string name="click_here">Click here</string>
+    <string name="if_cvv_and_expiry_on_card"> &#160;if you have CVV and Expiry on your card</string>
+    <string name="if_dont_cvv_and_expiry_on_card"> &#160;if you don\'t have CVV and Expiry on your card</string>
+
+</resources>

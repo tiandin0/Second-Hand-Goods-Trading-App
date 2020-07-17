@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="black">#030303</color>
+    <color name="color_amt_background">#E6E6E6</color>
+    <color name="color_paynow_button">#3488C4</color>
+    <color name="cb_errorRed">#e40000</color>
+
+</resources>

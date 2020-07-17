@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+
+    <ImageView
+        android:id="@+id/Detail_Item_Image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="10dp"
+      />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/Detail_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_alignParentLeft="true"
+            style="@style/TextStyle"
+            android:text="   $    1000"/>
+
+        <ImageView
+            android:id="@+id/Detail_favorite_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="fitCenter"
+            android:layout_margin="5dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_favor_heart" />
+
+    </RelativeLayout>
+
+    <View
+        style="@style/LineStyle"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.3"
+        android:gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/Detail_User_Image"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_weight="0.5" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="2">
+
+            <TextView
+                android:id="@+id/Detail_User_Name"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="User_name"
+                android:layout_weight="1"
+                style="@style/TextStyle"/>
+
+<!--            <RatingBar-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="0dp"-->
+<!--                android:layout_weight="1"/>-->
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/btn_chat"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/chat"
+            android:layout_margin="5dp"/>
+
+
+
+    </LinearLayout>
+
+    <View
+        style="@style/LineStyle"
+        android:layout_weight="0.01"/>
+
+    <TextView
+        android:id="@+id/Detail_Item_Description"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:text="Description......."
+        style="@style/TextStyle"/>
+
+    <View
+        style="@style/LineStyle"
+        android:layout_weight="0.01"/>
+
+    <Button
+        android:id="@+id/Detail_buy"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="0.3"
+        android:gravity="center"
+        android:background="@drawable/background_button_buy"
+        android:text="Buy"
+        style="@style/TextStyle"/>
+
+</LinearLayout>

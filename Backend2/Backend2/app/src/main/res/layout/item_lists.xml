@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#dcdcdc">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <ImageButton
+            style="@style/BottomButton"
+            android:id="@+id/History_Back_Button"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:scaleType="fitStart"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/back_button" />
+
+
+
+        <TextView
+            android:id="@+id/History_Title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="My XXXX Item"
+            style="@style/TextStyle"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/History_Item_List"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="20"
+        android:fastScrollAlwaysVisible="false"
+        android:layout_margin="8dp"
+        android:dividerHeight="8dp"
+        android:divider="#dcdcdc"/>
+
+
+
+</LinearLayout>
