@@ -2,4 +2,11 @@
 
 Server Side: Java + MVC  
 Client Side: XML  
-Database: Firebase  
+Database: Firebase
+
+# Features:  
+  
+Payment: PayU API  
+Recommend product pricing and Predict selling probability: Ebay Finding API  
+Location: Google Map  
+
