@@ -9,4 +9,5 @@ Database: Firebase
 Payment: PayU API  
 Recommend product pricing and Predict selling probability: Ebay Finding API  
 Location: Google Map  
+Chat Room: Web Socket
 
